@@ -1,0 +1,18 @@
+{
+  "name": "@vue-sfc/compiler-core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/compiler-core.js",
+  "module": "dist/compiler-core.mjs",
+  "typings": "dist/compiler-core.d.ts",
+  "scripts": {
+    "build": "rollup -c && cross-env BROWSER=true rollup -c",
+    "dev": "rollup -cw",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@vue/compiler-sfc": "^3.0.7"
+  }
+}
